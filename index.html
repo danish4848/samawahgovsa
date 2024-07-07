@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kingdom of Samawah - Government</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #474645;
+            color: #333;
+        }
+        .header {
+            background-color: #002366;
+            color: #FFFFFF;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .header .logo {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .header nav {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 20px;
+        }
+        .header nav a {
+            color: #FFFFFF;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 10px;
+        }
+        .header nav a:hover {
+            background-color: #C8102E;
+        }
+        .main-banner {
+            position: relative;
+            background-image: url('banner-image.jpg'); /* Replace with your image */
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 100px 20px;
+            color: #FFFFFF;
+        }
+        .main-banner .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 35, 102, 0.7);
+        }
+        .main-banner .content {
+            position: relative;
+            z-index: 1;
+        }
+        .main-banner .content h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .main-banner .content .cta-buttons {
+            margin-top: 20px;
+        }
+        .main-banner .content .cta-buttons a {
+            background-color: #C8102E;
+            color: #FFD700;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+        }
+        .main-banner .content .cta-buttons a:hover {
+            background-color: #FFD700;
+            color: #C8102E;
+        }
+        .section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .quick-links {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .quick-link {
+            background-color: #002366;
+            color: #FFD700;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            flex: 1 0 21%; /* Four items per row */
+            border-radius: 10px;
+        }
+        .news {
+            background-color: #bfbdbd;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .news h2 {
+            color: #002366;
+        }
+        .footer {
+            background-color: #002366;
+            color: #FFD700;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <svg width="50" height="50" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <!-- Background Circle -->
+                <circle cx="100" cy="100" r="95" fill="#002366" stroke="#FFD700" stroke-width="5" />
+            
+                <!-- Falcon (simplified shape) -->
+                <polygon points="100,40 130,80 70,80" fill="#C8102E" />
+                <polygon points="100,80 120,110 80,110" fill="#C8102E" />
+            
+                <!-- Sword (simplified shape) -->
+                <rect x="90" y="110" width="20" height="50" fill="#FFD700" />
+                <rect x="85" y="155" width="30" height="5" fill="#FFD700" />
+            
+                <!-- Arabic Text (simplified) -->
+                <text x="100" y="180" font-size="12" text-anchor="middle" fill="#FFD700" font-family="Arial">
+                    عاشت المملكة وملكها
+                </text>
+            </svg>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">News</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="main-banner">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Ministry of Interior of the Kingdom of Samawah</h1>
+            <div class="cta-buttons">
+                <a href="#">Our History</a>
+                <a href="#">Special Acts</a>
+            </div>
+        </div>
+    </div>
+    
+    <section class="section quick-links">
+        <div class="quick-link">
+            <h3>APPLY FOR CITIZENSHIP</h3>
+            <p>Follow the given details to get access to Samaric Citizenship.</p>
+        </div>
+        <div class="quick-link">
+            <h3>NATIONAL ID REGISTRATION/[BAGHSHOOSH]</h3>
+            <p>Information on how to register for a National ID.</p>
+        </div>
+        <div class="quick-link">
+            <h3>PASSPORT SERVICES</h3>
+            <p>Details on applying for or renewing your passport.</p>
+        </div>
+        <div class="quick-link">
+            <h3>Visa Information</h3>
+            <p>Get information on visa requirements and applications.</p>
+        </div>
+    </section>
+
+    <section class="news">
+        <h2>Latest News</h2>
+        <article>
+            <h3>New National Security Measures Announced</h3>
+            <p>The Ministry has announced new measures to enhance national security...</p>
+            <a href="#">Read More</a>
+        </article>
+        <article>
+            <h3>Minister's Address on Public Safety</h3>
+            <p>In a recent speech, the Minister emphasized the importance of public safety...</p>
+            <a href="#">Read More</a>
+        </article>
+        <article>
+            <h3>Upcoming Public Events and Holidays</h3>
+            <p>Check out the schedule for upcoming events and public holidays...</p>
+            <a href="#">Read More</a>
+        </article>
+    </section>
+
+    <footer class="footer">
+        <p>Long Live our Ruler His Majesty Hon'ble KING MISBAHUDDIN BIN SHAFIUDDIN BIN MATEEN AL MOHAMMED</p>
+        <p>عاش حاكمنا صاحب الجلالة الملك المحترم مصباح الدين بن شفيع الدين بن متين المحمد</p>
+        <p>Adress: 400008 Ministry of Interior Higher Building 42, Trigon Lake, Lamar, Kingdom of Samawah</p>
+        <p>Email: info@interior.gov.sa | Phone: +844 522 7461</p>
+        <p>&copy; 2024 Kingdom of Samawah. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Feedback Button</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Main content of the website -->
+    <div class="content">
+        <h1>Welcome to the Website</h1>
+        <p>Your main content goes here...</p>
+    </div>
+
+    <!-- Feedback Button -->
+    <div class="feedback-button" id="feedbackButton">
+        <span>Give Feedback</span>
+        <i class="fa fa-bullhorn" aria-hidden="true"></i>
+    </div>
+
+    <!-- Feedback Form (initially hidden) -->
+    <div class="feedback-form-container" id="feedbackFormContainer">
+        <div class="feedback-form">
+            <h2>Feedback</h2>
+            <form id="feedbackForm">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                
+                <button type="submit">Submit</button>
+            </form>
+            <button id="closeFeedbackForm">Close</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
